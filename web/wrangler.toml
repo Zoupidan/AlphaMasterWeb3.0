@@ -1,0 +1,7 @@
+name = "alpha-cpp-web"
+main = "src/index.js"
+compatibility_date = "2023-01-01"
+
+kv_namespaces = [
+  { binding = "ALPHA_DATA", id = "alphadata" }
+]
