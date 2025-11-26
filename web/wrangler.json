@@ -6,6 +6,7 @@
     { "binding": "ALPHA_DATA", "id": "alphadata" }
   ],
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "binding": "ASSETS"
   }
 }

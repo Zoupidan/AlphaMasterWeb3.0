@@ -26,7 +26,7 @@ export default {
       }
     }
 
-    // Serve static files
-    return new Response("Not found", { status: 404 });
+    // For all other requests, serve static files
+    return env.ASSETS.fetch(request);
   },
 };
