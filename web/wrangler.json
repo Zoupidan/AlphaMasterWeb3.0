@@ -1,0 +1,11 @@
+{
+  "name": "alpha-cpp-web",
+  "compatibility_date": "2023-01-01",
+  "main": "src/index.js",
+  "kv_namespaces": [
+    { "binding": "ALPHA_DATA", "id": "alphadata" }
+  ],
+  "assets": {
+    "directory": "./dist"
+  }
+}
