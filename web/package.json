@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "vue": "^3.2.0",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "wrangler": "^3.0.0"
   }
 }
